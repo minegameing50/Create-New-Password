@@ -17,12 +17,12 @@ function validateNewPassword(event) {
 
   // Check if both match
   if (password !== confirmPassword) {
-    alert("Passwords do not match.");
+    alert("Passwords do not match please try again later");
     return false;
   }
 
   // ✅ Passed
   alert("Password successfully created!");
-  // window.location.href = "login.html"; // redirect if needed
+   window.location.href = "https://minegameing50.github.io/Login-Page/"; // redirect if needed
   return true;
 }
