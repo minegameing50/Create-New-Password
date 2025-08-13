@@ -23,6 +23,6 @@ function validateNewPassword(event) {
 
   // ✅ Passed
   alert("Password successfully created!");
-   window.location.href = "https://minegameing50.github.io/Login-Page/"; // redirect if needed
+  window.location.href = "https://minegameing50.github.io/Login-Page/";
   return true;
 }
